@@ -1,5 +1,7 @@
 package entities;
 
+import java.util.Objects;
+
 public class UniteEnseignement {
     private int code;
     private String domaine;
@@ -58,17 +60,5 @@ public class UniteEnseignement {
         this.semestre = semestre;
     }
 
-    // equals() and hashCode() methods as required by the workshop
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Module module = (Module) o;
-        return Objects.equals(matricule, module.matricule);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(matricule);
-    }
 }

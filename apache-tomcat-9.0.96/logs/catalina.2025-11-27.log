@@ -1,0 +1,240 @@
+27-Nov-2025 17:13:17.426 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+27-Nov-2025 17:13:17.430 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+27-Nov-2025 17:13:17.431 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+8-LTS-286
+27-Nov-2025 17:13:17.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Nov-2025 17:13:17.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:13:17.432 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:13:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2025 17:13:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2025 17:13:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\conf\logging.properties
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2025 17:13:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Nov-2025 17:13:17.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:13:17.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:13:17.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\temp
+27-Nov-2025 17:13:17.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+27-Nov-2025 17:13:17.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Nov-2025 17:13:17.458 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Nov-2025 17:13:17.475 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+27-Nov-2025 17:13:17.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Nov-2025 17:13:17.787 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+27-Nov-2025 17:13:17.787 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [563] milliseconds
+27-Nov-2025 17:13:17.833 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2025 17:13:17.833 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+27-Nov-2025 17:13:17.843 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs]
+27-Nov-2025 17:13:18.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs] has finished in [320] ms
+27-Nov-2025 17:13:18.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples]
+27-Nov-2025 17:13:18.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples] has finished in [495] ms
+27-Nov-2025 17:13:18.660 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT]
+27-Nov-2025 17:13:19.567 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:13:19.669 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named webservices.ApplicationMain, at the servlet mapping, /rest/*.
+27-Nov-2025 17:13:21.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT] has finished in [2,680] ms
+27-Nov-2025 17:13:21.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager]
+27-Nov-2025 17:13:21.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager] has finished in [48] ms
+27-Nov-2025 17:13:21.389 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war]
+27-Nov-2025 17:13:22.538 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:13:22.573 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named ApplicationMain, at the servlet mapping, /api/*.
+27-Nov-2025 17:13:23.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war] has finished in [2,307] ms
+27-Nov-2025 17:13:23.697 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager]
+27-Nov-2025 17:13:23.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager] has finished in [32] ms
+27-Nov-2025 17:13:23.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT]
+27-Nov-2025 17:13:23.754 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT] has finished in [24] ms
+27-Nov-2025 17:13:23.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5972] milliseconds
+27-Nov-2025 17:17:42.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+27-Nov-2025 17:17:42.885 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+27-Nov-2025 17:17:42.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+27-Nov-2025 17:17:42.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Nov-2025 17:17:42.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Nov-2025 17:17:42.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2025 17:17:42.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+27-Nov-2025 17:17:42.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+8-LTS-286
+27-Nov-2025 17:17:42.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Nov-2025 17:17:42.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:17:42.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:17:42.899 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2025 17:17:42.900 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2025 17:17:42.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2025 17:17:42.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2025 17:17:42.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2025 17:17:42.903 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\conf\logging.properties
+27-Nov-2025 17:17:42.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2025 17:17:42.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2025 17:17:42.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2025 17:17:42.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Nov-2025 17:17:42.904 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:17:42.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:17:42.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\temp
+27-Nov-2025 17:17:42.908 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+27-Nov-2025 17:17:42.909 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Nov-2025 17:17:42.911 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Nov-2025 17:17:42.916 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+27-Nov-2025 17:17:43.215 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Nov-2025 17:17:43.238 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+27-Nov-2025 17:17:43.239 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [555] milliseconds
+27-Nov-2025 17:17:43.299 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2025 17:17:43.299 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+27-Nov-2025 17:17:43.315 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT.war]
+27-Nov-2025 17:17:44.474 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:17:44.559 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named webservices.ApplicationMain, at the servlet mapping, /rest/*.
+27-Nov-2025 17:17:45.817 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT.war] has finished in [2,501] ms
+27-Nov-2025 17:17:45.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs]
+27-Nov-2025 17:17:45.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs] has finished in [54] ms
+27-Nov-2025 17:17:45.873 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples]
+27-Nov-2025 17:17:46.446 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples] has finished in [574] ms
+27-Nov-2025 17:17:46.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager]
+27-Nov-2025 17:17:46.505 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager] has finished in [58] ms
+27-Nov-2025 17:17:46.506 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war]
+27-Nov-2025 17:17:47.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:17:47.838 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named ApplicationMain, at the servlet mapping, /api/*.
+27-Nov-2025 17:17:49.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war] has finished in [2,662] ms
+27-Nov-2025 17:17:49.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager]
+27-Nov-2025 17:17:49.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager] has finished in [37] ms
+27-Nov-2025 17:17:49.207 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT]
+27-Nov-2025 17:17:49.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT] has finished in [30] ms
+27-Nov-2025 17:17:49.245 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6005] milliseconds
+27-Nov-2025 17:24:24.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.96
+27-Nov-2025 17:24:24.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 3 2024 19:44:30 UTC
+27-Nov-2025 17:24:24.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.96.0
+27-Nov-2025 17:24:24.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+27-Nov-2025 17:24:24.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.12+8-LTS-286
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:24:24.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:24:24.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Nov-2025 17:24:24.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Nov-2025 17:24:24.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\conf\logging.properties
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Nov-2025 17:24:24.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Nov-2025 17:24:24.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:24:24.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96
+27-Nov-2025 17:24:24.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\temp
+27-Nov-2025 17:24:24.041 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+27-Nov-2025 17:24:24.041 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Nov-2025 17:24:24.042 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+27-Nov-2025 17:24:24.046 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+27-Nov-2025 17:24:24.241 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Nov-2025 17:24:24.260 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1027)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:986)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:268)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:223)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1373)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1386)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:663)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1025)
+		... 13 more
+27-Nov-2025 17:24:24.261 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [374] milliseconds
+27-Nov-2025 17:24:24.297 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Nov-2025 17:24:24.297 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.96]
+27-Nov-2025 17:24:24.311 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT.war]
+27-Nov-2025 17:24:25.157 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:24:25.211 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named webservices.RestActivator, at the servlet mapping, /rest/*.
+27-Nov-2025 17:24:26.026 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\Gestion_UE_VF-1.0-SNAPSHOT.war] has finished in [1,715] ms
+27-Nov-2025 17:24:26.027 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs]
+27-Nov-2025 17:24:26.061 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\docs] has finished in [33] ms
+27-Nov-2025 17:24:26.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples]
+27-Nov-2025 17:24:26.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\examples] has finished in [297] ms
+27-Nov-2025 17:24:26.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager]
+27-Nov-2025 17:24:26.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\host-manager] has finished in [35] ms
+27-Nov-2025 17:24:26.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war]
+27-Nov-2025 17:24:27.210 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Nov-2025 17:24:27.242 WARNING [main] org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer.addServletWithApplication Mapping conflict. A Servlet registration exists with same mapping as the Jersey servlet application, named config.SwaggerConfig, at the servlet mapping, /api/*.
+27-Nov-2025 17:24:28.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\LogementRendezVous_Etudiant_war] has finished in [1,737] ms
+27-Nov-2025 17:24:28.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager]
+27-Nov-2025 17:24:28.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\manager] has finished in [27] ms
+27-Nov-2025 17:24:28.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT]
+27-Nov-2025 17:24:28.181 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\LENOVO\Desktop\spring boot\rendu soa\SOA-Training\apache-tomcat-9.0.96\webapps\ROOT] has finished in [22] ms
+27-Nov-2025 17:24:28.187 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3926] milliseconds
